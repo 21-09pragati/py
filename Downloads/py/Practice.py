@@ -28,7 +28,7 @@ name="Pragati"
 university="Shivaji University"
 
 st1=name + ' is passout in '+ str(year) + ' from ' + university + ' ' 
-print(st1) '''
+print(st1) 
 
 #TYPECASTING
 
@@ -41,4 +41,55 @@ t=str(22)
 u=str(22.4)
 v=int("3")
 
-print([p,q,r,s,t,u,v])
+print([p,q,r,s,t,u,v])'''
+
+#JULY_18
+'''
+a=6
+b=2
+print('Addition : ', a + b)
+print('Subtraction : ', a - b)
+print('Multiplication : ', a * b)
+print('Division (float) : ', a / b)
+print('Division (floor) : ', a // b)
+print('Modulus : ', a % b)
+print('Exponent : ', a ** b)'''
+
+#Strings and slicing
+
+msg="Hello Welcome it\'s to VS Code"
+'''print(msg + msg)#no space between two string after concatenate
+print(msg,msg)#space between two strings seperating by comma
+
+print(msg.upper())
+
+print(msg.capitalize())
+
+print(msg.lower())
+
+print(msg.)
+
+print(msg.title())
+
+print(len(msg))
+
+print(msg.count('e'))
+
+print(msg[1:5])
+
+print(msg[::-1])
+
+print(msg[-1:-4])'''
+
+'''msg="Welcome to Python 101: Strings"
+
+#1 Welcome Ring To Tyler
+msg1=msg[18]+' '+msg[0:7]+' '+msg[25:30]+ ' '+msg[8:10]+' '+msg[13]+msg[12]+msg[2]+msg[1]+msg[-5]
+print(msg1.title())
+print(msg1[::-1])'''
+
+#multiline string
+msg2="""Hello,I am pragati Patil.
+I am from Karad.
+I have completed Btech in CSE"""
+print(msg2)
