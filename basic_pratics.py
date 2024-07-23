@@ -48,9 +48,13 @@ print(sum)'''
 
 
 
-#Write a program to calculate BMI.
+'''#Write a program to calculate BMI.
 
 weight=int(input("Enter Weight in kg:"))
 height=float(input("Enter a height in mtr:"))
 BMI=weight/(height*height)
-print("BMI of enter values is :",BMI)
+print("BMI of enter values is :",BMI)'''
+
+
+a=10
+print(type(a))
