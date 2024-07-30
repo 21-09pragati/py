@@ -18,16 +18,14 @@ print("Bye.")
 num=int(input("Enter a number between 1,2,3,4 :"))
 if num==1:
     print("number is 1.")
-elif num==2:
+if num==2:
     print("number is 2.")
-elif num==3:
+if num==3:
     print("number is 3.")
-elif num==4:
+if num==4:
     print("number is 4.")
-elif num<=10:
+if num<=10:
     print("number is 10")    
-else:
-    print("Wrong input")
 print("Bye")
 
 # write a program to calculate BMI and find weight category.
